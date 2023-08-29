@@ -1,0 +1,27 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, PingFang SC, Helvetica Neue, STHeiti, Microsoft Yahei, Tahoma, Simsun, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overscroll-behavior: none;
+  -webkit-overflow-scrolling: auto;
+  user-select: none;
+}
+
+#mark-container {
+  font-size: 0;
+  max-width: 100%;
+  max-height: 100%;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  position: relative;
+  #mark-canvas-container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+  }
+}
